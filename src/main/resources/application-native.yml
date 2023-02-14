@@ -1,0 +1,21 @@
+spring:
+    mvc:
+        pathmatch:
+            matching-strategy: ant_path_matcher
+    main:
+        allow-circular-references: true
+    application:
+        name: server
+    datasource:
+        type: com.zaxxer.hikari.HikariDataSource
+        jdbcUrl: jdbc:mysql://127.0.0.1:3306/activiti?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+        username: root
+        password: root
+    jackson:
+        date-format: yyyy-MM-dd HH:mm:ss
+        time-zone: GMT+8
+springfox:
+    documentation:
+        enabled: true
+server:
+    port: 9999
