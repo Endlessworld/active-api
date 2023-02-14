@@ -8,15 +8,10 @@ ActiveAPI 零代码为你的数据提供通用CRUD接口，仅需配置数据源
 #### 兼容性
 由于功能专一且简单 本项目支持大部分主流数据库如 SQLite、PostgreSQL、Oracle、MySQL、MSSQL、H2、DB2、TiDB 以及各种兼容 MySQL、Oracle协议的其它数据库（未详尽测试、理论可行
 
-#### 环境与依赖 
-
-* graalvm jdk11
-* springboot 2.7.3
-* activejdbc-spring-boot-starter 1.0.1.RELEASE
-* activejdbc 3.1-j11
-* lombok
+#### activejdbc-spring-boot-starter 地址
+* https://github.com/endlessworld/activejdbc-spring-boot-starter
+* https://gitee.com/endlessvoid/activejdbc-spring-boot-starter
 ### 打开方式
-
 将本项目导入idea、修改application-native.yml配置文件 中的数据库和端口配置即可 然后执行maven打包 jar -jar 启动即可
 #### 在线接口地址
 * https://y29bdwkxrh.apifox.cn/api-62175699
@@ -45,3 +40,11 @@ springfox:
 server:
   port: 9999
 ```
+
+#### 环境与依赖
+
+* graalvm jdk11
+* springboot 2.7.3
+* activejdbc-spring-boot-starter 1.0.1.RELEASE
+* activejdbc 3.1-j11
+* lombok
